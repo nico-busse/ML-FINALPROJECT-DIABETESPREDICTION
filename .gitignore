@@ -1,0 +1,17 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data and generated files (data is large; everyone downloads it from Kaggle)
+data/raw/*
+data/processed/*
+results/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
